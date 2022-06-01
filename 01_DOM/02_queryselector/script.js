@@ -1,8 +1,6 @@
 const color = prompt("Welche farbe?");
 
-// Element im HTML fidnen
-const body = document.querySelector("body");
+// Get all elements
+const section = document.querySelectorAll("section");
 
-body.style.backgroundColor
-
-console.log(body);
+section.forEach((sec) => (sec.style.backgroundColor = color));
