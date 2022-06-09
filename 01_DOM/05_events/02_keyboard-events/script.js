@@ -20,7 +20,7 @@ function keyPress(event) {
     const newTop = currentTop + 10;
     box.style.top = newTop + "px";
   } else if (event.key === "ArrowLeft") {
-    const newLeft = currentLeft + 10;
+    const newLeft = currentLeft - 10;
     box.style.left = newLeft + "px";
   } else if (event.key === "ArrowRight") {
     const newLeft = currentLeft + 10;
