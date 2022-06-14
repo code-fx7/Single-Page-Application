@@ -4,9 +4,11 @@ function createTimeout(time) {
   });
 }
 
-async function timerStart() {
-  await createTimeout(5);
+async function timerStart(time) {
+  console.log("⏳");
+  // gibt eine Promise zurück
+  await createTimeout(time);
   alert("Zeit abgelaufen!");
 }
 
-timerStart();
+timerStart(5);
