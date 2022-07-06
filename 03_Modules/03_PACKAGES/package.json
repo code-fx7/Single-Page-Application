@@ -1,5 +1,5 @@
 {
-  "name": "dad_jokes",
+  "name": "jokes",
   "version": "0.1.0",
   "description": "",
   "main": "src/script.js",
@@ -8,7 +8,7 @@
     "watch-webpack": "webpack --watch"
   },
   "keywords": [],
-  "author": "Ferdinand Hoske",
+  "author": "code-fx",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.73.0",
