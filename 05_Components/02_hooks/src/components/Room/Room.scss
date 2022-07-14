@@ -1,0 +1,14 @@
+.room {
+    display: flex;
+    flex-flow: column;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #353a44;
+}
+
+.light-button {
+    margin-top: 30px;
+}
